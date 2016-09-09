@@ -1449,3 +1449,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 .pure-u-1, .pure-u-1-1, .pure-u-5-5, .pure-u-24-24 {
   width: 100%; }
+
+.header {
+  background-image: url("../img/skivspelare.jpeg");
+  background-size: cover; }
