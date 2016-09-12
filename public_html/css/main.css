@@ -1173,6 +1173,10 @@ html, button, input, select, textarea, .pure-g [class*="pure-u"] {
 h1, h2, h3, h4, p {
   color: #6a6a6a; }
 
+p {
+  font-weight: 300;
+  line-height: 1.7; }
+
 a {
   margin: 0 auto;
   display: inline-block;
@@ -1269,3 +1273,20 @@ a {
 .cloudwrapper {
   max-width: 650px;
   margin: 0 auto; }
+
+.about-me {
+  background: -webkit-linear-gradient(top, rgba(44, 61, 105, 0.8) 0%, rgba(29, 41, 70, 0.8) 100%), url("../img/gitarr.png");
+  background: linear-gradient(-180deg, rgba(44, 61, 105, 0.8) 0%, rgba(29, 41, 70, 0.8) 100%), url("../img/gitarr.png");
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  text-align: center; }
+  .about-me h2 {
+    color: #ffffff; }
+  .about-me p {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: left; }
+
+.about-wrapper {
+  max-width: 480px; }
