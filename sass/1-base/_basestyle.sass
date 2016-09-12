@@ -4,15 +4,25 @@
 $white: #ffffff
 $orange: #DE9329
 $overlay: rgba(44, 62, 106, 0.6)
+$text-color: #6a6a6a
 
-
-html, body
+// Base styles for document
+html, button, input, select, textarea, .pure-g [class *= "pure-u"]
   font-family: 'Lato', sans-serif
+
+h1, h2, h3, h4, p
+  color: $text-color
 
 a
   margin: 0 auto
   display: inline-block
   text-align: center
+
+.section-wrapper
+  padding-left: 10px
+  padding-right: 10px
+  max-width: 960px
+  margin: 0 auto
 
 .button
   margin: 15px auto
@@ -23,8 +33,6 @@ a
   font-weight: 300
   text-decoration: none
   color: white
-
-
 
 // Components
 .hr

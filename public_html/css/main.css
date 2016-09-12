@@ -1167,13 +1167,22 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-html, body {
+html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   font-family: "Lato", sans-serif; }
+
+h1, h2, h3, h4, p {
+  color: #6a6a6a; }
 
 a {
   margin: 0 auto;
   display: inline-block;
   text-align: center; }
+
+.section-wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 960px;
+  margin: 0 auto; }
 
 .button {
   margin: 15px auto;
@@ -1196,7 +1205,7 @@ a {
   background: linear-gradient(-180deg, rgba(44, 61, 105, 0.6) 0%, rgba(29, 41, 70, 0.6) 100%), url("../img/skivspelare.jpeg");
   background-size: cover;
   background-position: center center;
-  height: 500px;
+  max-height: 600px;
   text-align: center; }
 
 .logo {
@@ -1223,3 +1232,16 @@ a {
   margin: 0 auto 15px auto;
   font-weight: 300;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+
+.service {
+  text-align: center; }
+
+.description {
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.7; }
+
+.service-icon {
+  width: auto;
+  height: 110px;
+  margin: 25px auto; }
