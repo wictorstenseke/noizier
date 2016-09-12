@@ -1170,6 +1170,10 @@ textarea {
 html, button, input, select, textarea, .pure-g [class*="pure-u"] {
   font-family: "Lato", sans-serif; }
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 h1, h2, h3, h4, p {
   color: #6a6a6a; }
 
@@ -1204,8 +1208,8 @@ a {
   background: #DE9329; }
 
 .header {
-  background: -webkit-linear-gradient(top, rgba(44, 61, 105, 0.6) 0%, rgba(29, 41, 70, 0.6) 100%);
-  background: linear-gradient(-180deg, rgba(44, 61, 105, 0.6) 0%, rgba(29, 41, 70, 0.6) 100%);
+  background: -webkit-linear-gradient(top, rgba(44, 61, 105, 0.6) 0%, rgba(29, 41, 70, 0.6) 100%), url("../img/skivspelare.jpeg");
+  background: linear-gradient(-180deg, rgba(44, 61, 105, 0.6) 0%, rgba(29, 41, 70, 0.6) 100%), url("../img/skivspelare.jpeg");
   background-size: cover;
   background-position: center center;
   max-height: 600px;
@@ -1332,16 +1336,17 @@ a {
   .footer-wrap p {
     color: #59A9C6;
     margin: 0px; }
-    .footer-wrap p:hover {
-      font-weight: 400; }
   .footer-wrap a {
     text-decoration: none;
     display: block;
     text-align: left; }
+    .footer-wrap a:hover {
+      font-weight: 400; }
 
 .last-foot {
   background-color: #2C3840;
-  text-align: center; }
+  text-align: center;
+  padding: 20px 0; }
 
 .footer-logo {
   fill: #4C5359;
