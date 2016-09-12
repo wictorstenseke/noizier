@@ -1290,3 +1290,29 @@ a {
 
 .about-wrapper {
   max-width: 480px; }
+
+.testimonials {
+  text-align: center; }
+  .testimonials h1 {
+    margin: 5px 0; }
+
+.client-word {
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 0 25px; }
+
+.client-portrait {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: 10px auto; }
+
+.client-name {
+  font-weight: 400;
+  margin: 20px 0 2px 0; }
+
+.client-descr {
+  color: #DE9329;
+  font-size: 18px;
+  margin: 2px; }
