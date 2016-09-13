@@ -1221,13 +1221,15 @@ a {
   background-position: center center;
   max-height: 600px;
   text-align: center;
-  padding-bottom: 40px;
-  position: relative; }
+  padding-bottom: 40px; }
+
+.home-button {
+  text-align: left;
+  display: block; }
 
 .logo {
   height: 50px;
-  padding: 30px 0px 0px 30px;
-  display: block; }
+  padding: 30px 0px 0px 30px; }
 
 .microphone {
   fill: #ffffff; }
