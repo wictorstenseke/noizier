@@ -1321,15 +1321,11 @@ a {
 
 .testimonials {
   text-align: center;
-  padding-bottom: 60px; }
+  padding-bottom: 10px; }
   .testimonials h1 {
-    margin: 5px 0; }
-
-.client-word {
-  text-align: center;
-  font-weight: 300;
-  line-height: 1.7;
-  margin: 0 25px; }
+    margin: 5px 0 5px 0; }
+  .testimonials .hr {
+    margin: 30px auto; }
 
 .client-portrait {
   width: 150px;
@@ -1344,7 +1340,13 @@ a {
 .client-descr {
   color: #DE9329;
   font-size: 18px;
-  margin: 2px; }
+  margin: 0px; }
+
+.client-word {
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 5px 25px 10px 25px; }
 
 .footer {
   background-image: -webkit-linear-gradient(bottom, #074E68 0%, #0A6485 100%);
