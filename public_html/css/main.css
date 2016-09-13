@@ -1200,8 +1200,8 @@ a {
   font-weight: 400;
   text-decoration: none;
   color: #ffffff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s; }
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
   .button:hover {
     background: rgba(196, 196, 196, 0.25);
     color: #ffffff; }
@@ -1370,19 +1370,22 @@ a {
 
 .last-foot {
   background-color: #2C3840;
-  text-align: center;
-  padding: 20px 0; }
+  text-align: center; }
 
 .footer-logo {
   fill: #4C5359;
   display: block;
-  height: 40px;
-  width: 40px;
-  margin: 10px; }
+  height: 30px;
+  width: 30px;
+  margin: 10px 5px 0px 5px;
+  padding: 4px 0; }
 
 .copyright {
   color: #4C5359;
-  text-align: center; }
+  text-align: center;
+  margin: 0px auto;
+  padding: 15px 0;
+  font-size: 14px; }
 
 .social-icons {
   text-align: center;
@@ -1390,6 +1393,24 @@ a {
 
 .social-media {
   display: inline-block;
-  height: 40px;
-  width: 40px;
-  margin: 10px; }
+  height: 30px;
+  width: 30px;
+  margin: 0px 5px;
+  padding: 12px 0; }
+
+@media only screen and (max-width: 567px) {
+  .footer-logo {
+    margin: 10px 5px 0px 5px;
+    padding: 5px 0 0px 0; }
+
+  .copyright {
+    margin: 0px auto;
+    padding: 0px 0;
+    font-size: 14px; }
+
+  .social-media {
+    margin: 0px 5px;
+    padding: 10px 0; }
+
+  .footer-wrap {
+    margin-left: 30px; } }
