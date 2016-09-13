@@ -1188,7 +1188,7 @@ a {
 
 .section-wrapper {
   padding: 40px 10px;
-  max-width: 960px;
+  max-width: 1180px;
   margin: 0 auto; }
 
 .button {
@@ -1197,9 +1197,16 @@ a {
   border: 2px solid white;
   border-radius: 50px;
   padding: 10px 35px;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
-  color: white; }
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .button:hover {
+    background: rgba(196, 196, 196, 0.25);
+    color: #ffffff; }
+    .button:hover .speaker-play {
+      fill: #ffffff; }
 
 .hr {
   margin: 15px auto;
@@ -1213,18 +1220,23 @@ a {
   background-size: cover;
   background-position: center center;
   max-height: 600px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 40px;
+  position: relative; }
 
 .logo {
-  height: 60px;
-  padding: 30px;
+  height: 50px;
+  padding: 30px 0px 0px 30px;
   display: block; }
 
 .microphone {
   fill: #ffffff; }
 
+.hero {
+  padding: 20px 0; }
+
 .banner {
-  margin-bottom: 10px;
+  margin: 0px 0 10px 0;
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -1241,6 +1253,12 @@ a {
   font-weight: 300;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
 
+.speaker-play {
+  fill: #ffffff;
+  width: 23px;
+  margin-bottom: -7px;
+  margin-left: 7px; }
+
 .service {
   text-align: center; }
 
@@ -1248,13 +1266,16 @@ a {
   text-align: left;
   font-weight: 300;
   line-height: 1.7;
-  margin: 0 10px; }
+  margin: 0 35px; }
 
 .service-icon {
   width: auto;
   height: 110px;
   margin: 25px auto; }
 
+@media only screen and (max-width: 769px) {
+  .description {
+    margin: 0 15px; } }
 .soundcloud {
   background-image: -webkit-linear-gradient(top, #DE9329 0%, #D64C1B 100%);
   background-image: linear-gradient(-180deg, #DE9329 0%, #D64C1B 100%);

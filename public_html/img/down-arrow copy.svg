@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="19px" viewBox="0 0 35 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>down-arrow copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing-page" transform="translate(-756.000000, -658.000000)" fill="#FFFFFF">
+            <g id="hero-image">
+                <path d="M781.651528,684.889353 C781.983627,684.889353 782.285536,684.768663 782.527063,684.527284 C783.010116,684.044525 783.010116,683.260042 782.527063,682.777284 L767.129732,667.389353 L782.527063,652.001422 C783.010116,651.518663 783.010116,650.73418 782.527063,650.251422 C782.044009,649.768663 781.259047,649.768663 780.775994,650.251422 L764.472937,666.514353 C763.989884,666.997111 763.989884,667.781594 764.472937,668.264353 L780.775994,684.527284 C781.01752,684.768663 781.319429,684.889353 781.651528,684.889353 Z" id="down-arrow-copy" transform="translate(773.500000, 667.389353) rotate(270.000000) translate(-773.500000, -667.389353) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
