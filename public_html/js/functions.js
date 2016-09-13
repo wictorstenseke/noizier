@@ -8,6 +8,6 @@ $(document).ready(function(){
     // Scroll to show the link
     $('html, body').animate({
       'scrollTop': $target.offset().top
-    }, 800, 'swing');
+    }, 600, 'swing');
   });
 });
